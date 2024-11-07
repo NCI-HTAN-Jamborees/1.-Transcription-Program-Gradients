@@ -50,4 +50,7 @@ This project is licensed under the XXX License. See the LICENSE file for more de
 - **Lon Fong**, 
 - **Syed Abbas Bukhari**, 
 - **Phi Le**, 
-- **Neel Sanghvi**, 
+- **Neel Sanghvi**,
+## Acknowledgements
+Thank you to the Human Tumor Atlas Network (HTAN), NIH, NCI, and Cancer Genomics Cloud (Seven Bridges) for all support.
+
