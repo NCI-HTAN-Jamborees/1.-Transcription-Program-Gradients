@@ -44,7 +44,7 @@ This project is licensed under the XXX License. See the LICENSE file for more de
 ## HTAN Transcription Program Gradients Team
 - **Yukun Tan**, affiliation
 - **Mary Goldman**,
-- **Minji Kim**, Mayo Clinic, Jacksonville FL - Department of Artificial Intelligence and Informatics Research
+- **Minji Kim**, Department of Artificial Intelligence and Informatics Research, Mayo Clinic, Jacksonville FL
 - **Irene Marin Goni**,
 - **Neel Sanghvi**, 
 - **Lon Fong**, 
