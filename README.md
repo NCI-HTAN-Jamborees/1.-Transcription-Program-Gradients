@@ -1,14 +1,14 @@
 # Transcription Program Gradients
 ## Human Tumor Atlas Network (HTAN) Data Jamboree | Nov. 6-8, 2024
 ## Overview
-Local Spatial Gradient Inference (LSGI) is a tool that systematically identifies spatial locations with prominent, interpretable spatial transcriptomic gradients (STGs) from spatial transcriptomic (ST) data ((Manuscript)[https://www.biorxiv.org/content/10.1101/2024.03.19.585725v1], (Github)[https://github.com/qingnanl/LSGI]).
+Local Spatial Gradient Inference (LSGI) is a tool that systematically identifies spatial locations with prominent, interpretable spatial transcriptomic gradients (STGs) from spatial transcriptomic (ST) data ([Manuscript](https://www.biorxiv.org/content/10.1101/2024.03.19.585725v1), [Github](https://github.com/qingnanl/LSGI)).
 
 We applied LSGI to breast cancer data in HTAN, specifically exploring if transcriptional gradients vary between breast cancer subtypes.
 
-We reanalyzed data from (Iglesia 2024)[https://www.nature.com/articles/s43018-024-00773-6], which showed characteristic links in gene expression and chromatin accessibility between breast cancer subtypes. In particular they found exhausted CD8+ T cells were enriched in basal-like breast cancer, suggesting an altered means of immune dysfunction. We hope to verify this exhausted CD8+ T cells in the results from the LSGI algorithm.
+We reanalyzed data from [Iglesia 2024](https://www.nature.com/articles/s43018-024-00773-6), which showed characteristic links in gene expression and chromatin accessibility between breast cancer subtypes. In particular they found exhausted CD8+ T cells were enriched in basal-like breast cancer, suggesting an altered means of immune dysfunction. We hope to verify this exhausted CD8+ T cells in the results from the LSGI algorithm.
 
 ## Data Details
-Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We downloaded NN files from NN samples. This is the (direct link)[] to the HTAN filtered list of samples with the freely accessible Seurat RDS (R code files). 
+Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We downloaded NN files from NN samples. This is the [direct link]() to the HTAN filtered list of samples with the freely accessible Seurat RDS (R code files). 
 
 ## Project Description
 This project includes follwing R scripts:
