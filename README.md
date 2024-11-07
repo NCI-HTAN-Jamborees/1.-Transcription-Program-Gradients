@@ -1,4 +1,5 @@
 # Spatial Transcriptomics Analysis with Seurat and NMF
+## Human Tumor Atlas Network (HTAN) Data Jamboree | Nov. 6-8, 2024
 ## Overview
 
 ## Project Description
@@ -41,7 +42,12 @@ This project includes follwing R scripts:
 ## License
 This project is licensed under the XXX License. See the LICENSE file for more details.
 ## HTAN Transcription Program Gradients Team
-**Team lead:** Yukun Tan
-**Writers:** Mary Goldman, Neel Sanghvi
-**Tech leads:** Minji Kim, Irene Marin Goni
-**Team members:**  Lon Fong, Syed Abbas Bukhari, Phi Le
+- **Yukun Tan**, affiliation
+- **Mary Goldman**,
+- **Minji Kim**, Mayo Clinic, Jacksonville FL - Department of Artificial Intelligence and Informatics Research
+- **Irene Marin Goni**,
+- **Neel Sanghvi**, 
+- **Lon Fong**, 
+- **Syed Abbas Bukhari**, 
+- **Phi Le**, 
+- **Neel Sanghvi**, 
