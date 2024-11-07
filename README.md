@@ -40,7 +40,7 @@ This project includes follwing R scripts:
 3. Run the script with the input data in the appropriate format.
 4. Outputs will be saved in the current directory, including processed data, LSGI results, and visualization plots.
 ## License
-This project is licensed under the MIT License[!https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/LICENSE]. See the LICENSE file for more details.
+This project is licensed under the [MIT License](https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/LICENSE). See the LICENSE file for more details.
 ## HTAN Transcription Program Gradients Team
 - **Yukun Tan**, University of Texas MD Anderson Cancer Center, Huston TX
 - **Mary Goldman**, Genomics Instittue, UC Santa cruz, Santa Cruz, CA
