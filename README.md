@@ -52,5 +52,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 - **Phi Le**, 
 - **Neel Sanghvi**,
 ## Acknowledgements
-Thank you to the Human Tumor Atlas Network (HTAN), NIH, NCI, and Cancer Genomics Cloud (Seven Bridges) for all support.
+Thank you to the Human Tumor Atlas Network (HTAN), NIH, NCI, ISB-CGC and Cancer Genomics Cloud (Seven Bridges) for all support.
 
