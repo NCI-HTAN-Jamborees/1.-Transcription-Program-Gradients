@@ -42,7 +42,7 @@ This project includes follwing R scripts:
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/LICENSE) file for more details.
 ## HTAN Transcription Program Gradients Team
-- **Yukun Tan**, University of Texas MD Anderson Cancer Center, Huston TX
+- **Yukun Tan**,
 - **Mary Goldman**, Genomics Instittue, UC Santa cruz, Santa Cruz, CA
 - **Minji Kim**, Department of Artificial Intelligence and Informatics Research, Mayo Clinic, Jacksonville FL
 - **Irene Marin Goni**,
