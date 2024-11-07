@@ -29,7 +29,7 @@ This project includes follwing R scripts:
 - **Processed Seurat Object**: An RDS file containing the processed Seurat object (e.g.,`HT206B1-S1Fc1U2Z1B1_processed_data.rds`), which includes the spatial transcriptomics data with linked imaging and NMF embeddings.
 - **LSGI Results**: An RDS file (e.g.,`HT206B1-S1Fc1U2Z1B1_lsgi.rds`) containing the results from the LSGI analysis.
 - **Visualizations**: Plots of the spatial gradients, distance heatmaps, and enriched gene sets saved as PDFs.
-- **Functional Annotations**: Excel files containing the hallmark enrichment results (`MESO_fov19_Hallmark_hypeR.xlsx`).
+- **Functional Annotations**: Excel files containing the hallmark enrichment results (e.g.,`MESO_fov19_Hallmark_hypeR.xlsx`).
 ### Requirements
 - R version 4.0 or higher
 - Required libraries: `Seurat`, `Matrix`, `RcppML`, `ggplot2`, `dplyr`, `LSGI`, `hypeR`, `msigdbr`
