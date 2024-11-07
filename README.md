@@ -1,4 +1,4 @@
-# Spatial Transcriptomics Analysis with Seurat and NMF
+# Transcription Program Gradients
 ## Human Tumor Atlas Network (HTAN) Data Jamboree | Nov. 6-8, 2024
 ## Overview
 
