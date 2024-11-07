@@ -49,6 +49,10 @@ This project includes follwing R scripts:
 2. Ensure that all required libraries are installed.
 3. Run the script with the input data in the appropriate format.
 4. Outputs will be saved in the current directory, including processed data, LSGI results, and visualization plots.
+## Results
+
+## Future features
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/LICENSE) file for more details.
 ## HTAN Transcription Program Gradients Team
