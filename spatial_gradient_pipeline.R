@@ -9,10 +9,10 @@
 # Requiring Libraries
 library(Seurat)
 library(Matrix)
-library(RcppML)  # ref: https://github.com/zdebruine/RcppML
+library(RcppML)  # Ref: https://github.com/zdebruine/RcppML
 library(ggplot2)
 library(dplyr)
-library(LSGI)
+library(LSGI) # Ref: https://github.com/qingnanl/LSGI
 library(hypeR)
 library(msigdbr)
 
