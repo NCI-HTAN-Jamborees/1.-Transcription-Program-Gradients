@@ -21,9 +21,7 @@ We reanalyzed data from [Iglesia 2024](https://www.nature.com/articles/s43018-02
 ![Image showing workflow](Workflow.png)
 
 ## Data Details
-Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We examined 6 samples: Basal: HT206B1-S1Fc1U2Z1B1, HT268B1-Th1H3Fc2U12Z1Bs1, HT271B1-S1H3Fc2U1Z1Bs1 Luminal: HT305B1-S1H1Fc2U1Z1Bs1, HT323B1-S1H1Fc2U1Z1Bs1, HT243B1H3A2-S1Fc1U1Z1B1.
-
-This is the [direct link]() to the HTAN filtered list of samples with the freely accessible Seurat RDS (R code files). 
+Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We examined 6 samples: Basal: HT206B1-S1Fc1U2Z1B1, HT268B1-Th1H3Fc2U12Z1Bs1, HT271B1-S1H3Fc2U1Z1Bs1 Luminal: HT305B1-S1H1Fc2U1Z1Bs1, HT323B1-S1H1Fc2U1Z1Bs1, HT243B1H3A2-S1Fc1U1Z1B1. Here is the [list of synapseIDs](https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/synapseIDs) for all data downloaded.
 
 ## Project Description
 This project includes follwing R scripts:
