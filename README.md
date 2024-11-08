@@ -48,6 +48,9 @@ This project includes follwing R scripts:
 ### Input for spatial_gradient_pipeline.R
 - **10X Genomics Visium Data**: The input data should include the filtered feature-barcode matrix and the spatial image data for breast cancer samples.
 - **Parameters for NMF**: Users can specify the rank for NMF analysis and the tolerance level for optimization.
+### Worksflow for run_over_representation_GO.R
+1. Input: The list of genes that you want to find the pathway by overrepresentation method against GO gene sets
+2. Output: The results of gene set enrichment analysis that has list of gene sets from GO and related outomes.
 ### Output for spatial_gradient_pipeline.R
 - **Processed Seurat Object**: An RDS file containing the processed Seurat object (e.g.,`HT206B1-S1Fc1U2Z1B1_processed_data.rds`), which includes the spatial transcriptomics data with linked imaging and NMF embeddings.
 - **LSGI Results**: An RDS file (e.g.,`HT206B1-S1Fc1U2Z1B1_lsgi.rds`) containing the results from the LSGI analysis.
