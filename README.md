@@ -1,5 +1,6 @@
 # Transcription Program Gradients
 ## Human Tumor Atlas Network (HTAN) Data Jamboree | Nov. 6-8, 2024
+![Image showing overall](2024 overall_figure.png)
 ## HTAN Transcription Program Gradients Team
 - **Yukun Tan**, Department of Bioinformatics and Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX
 - **Mary Goldman**, Genomics Institute, UC Santa Cruz, Santa Cruz, CA
