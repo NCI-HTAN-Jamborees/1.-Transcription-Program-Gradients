@@ -54,7 +54,7 @@ This project includes follwing R scripts:
 - **Functional Annotations**: Excel files containing the hallmark enrichment results (e.g.,`MESO_fov19_Hallmark_hypeR.xlsx`).
 ### Requirements
 - R version 4.0 or higher
-- Required libraries: `Seurat`, `Matrix`, `RcppML`, `ggplot2`, `dplyr`, `LSGI`, `hypeR`, `msigdbr`
+- Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
 ## Usage
 1. Clone this repository and set the correct working directory.
 2. Ensure that all required libraries are installed.
