@@ -1,1 +1,1 @@
-These are the figures for the README for the repository
+These are the results figures for the README for the repository
