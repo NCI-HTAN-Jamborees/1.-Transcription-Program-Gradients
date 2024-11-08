@@ -26,6 +26,7 @@ Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atl
 ## Project Description
 This project includes follwing R scripts:
 1. `spatial_gradient_pipeline.R`
+2. `clustering_NMF.R`
 ### Workflow for spatial_gradient_pipeline.R
 1. **Data Preprocessing**
     - Load spatial transcriptomics data from a 10X Genomics dataset.
@@ -55,6 +56,15 @@ This project includes follwing R scripts:
 ### Requirements
 - R version 4.0 or higher
 - Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
+### Workflow for clustering_NMF.R
+1. **Load Data**
+- Load pre-processed Seurat objects from provided .rds files for multiple biological samples.
+2. **Feature Extraction**
+- Extract the top features (genes) from NMF feature loadings for each sample. This allows us to identify the most influential genes contributing to each NMF component.
+3. **Jaccard Distance Computation**
+- Calculate the Jaccard distance between the top features for different samples. Separate analyses are conducted for basal and luminal subtypes.
+4. **Heatmap Visualization**
+- Generate heatmaps to visualize the Jaccard distance matrices for basal and luminal subtypes, as well as between these subtypes.
 ## Usage
 1. Clone this repository and set the correct working directory.
 2. Ensure that all required libraries are installed.
