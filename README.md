@@ -67,10 +67,10 @@ This project includes follwing R scripts:
     - Generate heatmaps to visualize the Jaccard distance matrices for basal and luminal subtypes, as well as between these subtypes.
 
 ### Input for clustering_NMF.R
-    - The script expects pre-processed Seurat objects in `.rds` format 
+- The script expects pre-processed Seurat objects in `.rds` format 
 ### Outputfor for clustering_NMF.R
-    - `heatmap.pdf`: Jaccard distance matrices for basal and luminal subtypes.
-    - `heatmap_BasalvsLuminal.pdf`: Jaccard distance matrix comparing basal and luminal subtypes.
+- `heatmap.pdf`: Jaccard distance matrices for basal and luminal subtypes.
+- `heatmap_BasalvsLuminal.pdf`: Jaccard distance matrix comparing basal and luminal subtypes.
 ### Requirements for clustering_NMF.R
 - R version 4.0 or higher
 - Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
