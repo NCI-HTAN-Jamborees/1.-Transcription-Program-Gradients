@@ -48,9 +48,6 @@ This project includes follwing R scripts:
 ### Input for spatial_gradient_pipeline.R
 - **10X Genomics Visium Data**: The input data should include the filtered feature-barcode matrix and the spatial image data for breast cancer samples.
 - **Parameters for NMF**: Users can specify the rank for NMF analysis and the tolerance level for optimization.
-### Worksflow for run_over_representation_GO.R
-1. Input: The list of genes that you want to find the pathway by overrepresentation method against GO gene sets
-2. Output: The results of gene set enrichment analysis that has list of gene sets from GO and related outomes.
 ### Output for spatial_gradient_pipeline.R
 - **Processed Seurat Object**: An RDS file containing the processed Seurat object (e.g.,`HT206B1-S1Fc1U2Z1B1_processed_data.rds`), which includes the spatial transcriptomics data with linked imaging and NMF embeddings.
 - **LSGI Results**: An RDS file (e.g.,`HT206B1-S1Fc1U2Z1B1_lsgi.rds`) containing the results from the LSGI analysis.
@@ -77,7 +74,11 @@ This project includes follwing R scripts:
 ### Requirements for clustering_NMF.R
 - R version 4.0 or higher
 - Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
-
+### Worksflow for run_over_representation_GO.R
+We load the gene lists of interest and run gene set over representation from GO
+- Input: The list of genes that you want to find the pathway
+- Output: The results of gene set enrichment analysis that has list of gene sets from GO and related outomes.
+- Required libraries: `clusterProfilen`, `parallel`, `data.table`, `org.Hs.eg.db` 
 ## Usage
 1. Clone this repository and set the correct working directory.
 2. Ensure that all required libraries are installed.
