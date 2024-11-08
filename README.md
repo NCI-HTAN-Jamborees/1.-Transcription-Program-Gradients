@@ -1,5 +1,15 @@
 # Transcription Program Gradients
 ## Human Tumor Atlas Network (HTAN) Data Jamboree | Nov. 6-8, 2024
+## HTAN Transcription Program Gradients Team
+- **Yukun Tan**, Department of Bioinformatics and Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX
+- **Mary Goldman**, Genomics Institute, UC Santa Cruz, Santa Cruz, CA
+- **Minji Kim**, Department of Artificial Intelligence and Informatics Research, Mayo Clinic, Jacksonville FL
+- **Irene Marin Goni**, Machine Learning for Computational Biology, CIMA University of Navarra, Spain / MPET Department, Mayo Clinic, Rochester, MN
+- **Neel Sanghvi**, Cancer Data Science Laboratory, NCI (NIH), Bethesda, MD
+- **Lon Fong**, PRIME-TR, University of Texas MD Anderson Cancer Center, Huston TX
+- **Syed Abbas Bukhari**, Laboratory of Pediatric Oncology, NCI (NIH), Bethesda, MD
+- **Phi Le**, Department of Medicine, University of California San Francisco, San Francisco, CA
+
 ## Overview
 Local Spatial Gradient Inference (LSGI) is a tool that systematically identifies spatial locations with prominent, interpretable spatial transcriptomic gradients (STGs) from spatial transcriptomic (ST) data ([Manuscript](https://www.biorxiv.org/content/10.1101/2024.03.19.585725v1), [Github](https://github.com/qingnanl/LSGI)).
 
@@ -55,16 +65,7 @@ This project includes follwing R scripts:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/NCI-HTAN-Jamborees/Transcription-Program-Gradients/blob/main/LICENSE) file for more details.
-## HTAN Transcription Program Gradients Team
-- **Yukun Tan**,
-- **Mary Goldman**, Genomics Instittue, UC Santa cruz, Santa Cruz, CA
-- **Minji Kim**, Department of Artificial Intelligence and Informatics Research, Mayo Clinic, Jacksonville FL
-- **Irene Marin Goni**,
-- **Neel Sanghvi**, 
-- **Lon Fong**, PRIME-TR, University of Texas MD Anderson Cancer Center, Huston TX
-- **Syed Abbas Bukhari**, 
-- **Phi Le**, 
-- **Neel Sanghvi**,
+
 ## Acknowledgements
 Thank you to the Human Tumor Atlas Network (HTAN), NIH, NCI, ISB-CGC and Cancer Genomics Cloud (Seven Bridges) for all support.
 
