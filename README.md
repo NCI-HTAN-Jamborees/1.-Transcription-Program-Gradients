@@ -45,15 +45,15 @@ This project includes follwing R scripts:
 5. **Visualization**
     - Generate plots for spatial gradients and perform distance heatmap analysis.
     - Create visualizations of the enriched gene sets to understand their biological significance.
-### Input
+### Input for spatial_gradient_pipeline.R
 - **10X Genomics Visium Data**: The input data should include the filtered feature-barcode matrix and the spatial image data for breast cancer samples.
 - **Parameters for NMF**: Users can specify the rank for NMF analysis and the tolerance level for optimization.
-### Output
+### Outputfor spatial_gradient_pipeline.R
 - **Processed Seurat Object**: An RDS file containing the processed Seurat object (e.g.,`HT206B1-S1Fc1U2Z1B1_processed_data.rds`), which includes the spatial transcriptomics data with linked imaging and NMF embeddings.
 - **LSGI Results**: An RDS file (e.g.,`HT206B1-S1Fc1U2Z1B1_lsgi.rds`) containing the results from the LSGI analysis.
 - **Visualizations**: Plots of the spatial gradients, distance heatmaps, and enriched gene sets saved as PDFs.
 - **Functional Annotations**: Excel files containing the hallmark enrichment results (e.g.,`MESO_fov19_Hallmark_hypeR.xlsx`).
-### Requirements
+### Requirements for spatial_gradient_pipeline.R
 - R version 4.0 or higher
 - Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
 ### Workflow for clustering_NMF.R
@@ -65,6 +65,18 @@ This project includes follwing R scripts:
 - Calculate the Jaccard distance between the top features for different samples. Separate analyses are conducted for basal and luminal subtypes.
 4. **Heatmap Visualization**
 - Generate heatmaps to visualize the Jaccard distance matrices for basal and luminal subtypes, as well as between these subtypes.
+### Input for clustering_NMF.R
+- **10X Genomics Visium Data**: The input data should include the filtered feature-barcode matrix and the spatial image data for breast cancer samples.
+- **Parameters for NMF**: Users can specify the rank for NMF analysis and the tolerance level for optimization.
+### Outputfor for clustering_NMF.R
+- **Processed Seurat Object**: An RDS file containing the processed Seurat object (e.g.,`HT206B1-S1Fc1U2Z1B1_processed_data.rds`), which includes the spatial transcriptomics data with linked imaging and NMF embeddings.
+- **LSGI Results**: An RDS file (e.g.,`HT206B1-S1Fc1U2Z1B1_lsgi.rds`) containing the results from the LSGI analysis.
+- **Visualizations**: Plots of the spatial gradients, distance heatmaps, and enriched gene sets saved as PDFs.
+- **Functional Annotations**: Excel files containing the hallmark enrichment results (e.g.,`MESO_fov19_Hallmark_hypeR.xlsx`).
+### Requirements for clustering_NMF.R
+- R version 4.0 or higher
+- Required libraries: `Seurat 5.1.0`, `Matrix 1.6-5`, `RcppML 0.3.7`, `ggplot2 3.5.1`, `dplyr 1.1.4`, `LSGI 0.1.0`, `hypeR 2.0.0`, `msigdbr 7.5.1`
+
 ## Usage
 1. Clone this repository and set the correct working directory.
 2. Ensure that all required libraries are installed.
