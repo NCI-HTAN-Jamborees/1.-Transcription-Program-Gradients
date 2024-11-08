@@ -63,7 +63,7 @@ This project includes follwing R scripts:
 ## Results
 
 ### Wireframes
-We created wireframes using the tool [Balsamiq](https://balsamiq.com/). [PDF](wireframes/Spatial Transcriptomic Gradients in Breast Cancer.pdf) and [.bmpr file (Balsamiq-specific file)](wireframes/Spatial Transcriptomic Gradients in Breast Cancer.bmpr)
+We created wireframes using the tool [Balsamiq](https://balsamiq.com/) to show how a user could explore the results from this project. The PDF and .bmpr file (Balsamiq-specific file) are in the wireframes directory.
 
 Here is a screenshot from the wireframes:
 ![10](https://github.com/user-attachments/assets/83e3ad00-b950-4656-a3eb-5723bdd39879)
