@@ -21,7 +21,7 @@ We reanalyzed data from [Iglesia 2024](https://www.nature.com/articles/s43018-02
 ![Image showing workflow](Workflow.png)
 
 ## Data Details
-Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We downloaded NN files from NN samples. This is the [direct link]() to the HTAN filtered list of samples with the freely accessible Seurat RDS (R code files). 
+Visium 10X data were downloaded from the Human Tumor Atlas Network’s WUSTL atlas (HTAN WUSTL). We downloaded 6 files from 6 samples. This is the [direct link]() to the HTAN filtered list of samples with the freely accessible Seurat RDS (R code files). 
 
 ## Project Description
 This project includes follwing R scripts:
